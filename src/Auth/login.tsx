@@ -26,7 +26,7 @@ const Login: React.FC = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      setError("");
+      setError(" ");
     }, 5000);
   }, [error]);
 
